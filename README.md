@@ -1,4 +1,4 @@
-# T480-OpenCore-Hackintosh
+# T480-OpenCore-Hackintosh-Thunderbolt
 
 <img align="right" src="https://github.com/EETagent/T480-OpenCore-Hackintosh/raw/master/Other/README_Resources/ThinkPad.gif" alt="T480 macOS" width="430">
 
