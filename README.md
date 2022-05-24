@@ -198,11 +198,12 @@ etc.
 - [x] Basic Thunderbolt functionality (see Thunderbolt notes below)
 - [x] Thunderbolt hotplug
 - [x] Thunderbolt wake from sleep
-  <Thunderbolt>
+  <details>
+    <summary><strong>Thunderbolt</strong></summary>
     Thunderbolt on the T480 is setup in an unusual way, devices are exposed to macOS as expresscard pcie devices. hotplug and wake from sleep work.
     Devices I have tested that work: AKiTiO Node + RX 6600, Elgato Thunderbolt 3 Dock (20DAA9902)
     Devices I have tested that do not work: Apple Thunderbolt 3 to Thunderbolt 2 adapter + Apple thunderbolt to ethernet adapter (A1433)
-  </Thunderbolt>
+  </details>
 
 </details>  
 
