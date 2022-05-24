@@ -189,7 +189,7 @@ etc.
 - [x] Sleep/Wake 
 - [x] TouchPad `1-5 fingers swipe works. Emulate force touch using longer and more voluminous touch.`
 - [x] TrackPoint  `Works perfectly. Just like on Windows or Linux.`
-- [x] USB Ports (including USB 3.1 10 Gbps on the bottom USB C port `USB Map is different for devices with Windows Hello camera.`
+- [x] USB Ports (including USB 3.1 10 Gbps on the front USB C port `USB Map is different for devices with Windows Hello camera.`
 - [x] Web camera
 - [x] Wifi - Stock Intel
 - [x] DRM `Widevine, validated on Firefox 82. WhateverGreen's DRM is broken on Big Sur and up`
@@ -199,10 +199,12 @@ etc.
 - [x] Thunderbolt hotplug
 - [x] Thunderbolt wake from sleep
   <details>
-    <summary><strong>Thunderbolt</strong></summary>
+    <summary><strong>Thunderbolt Details</strong></summary>
     Thunderbolt on the T480 is setup in an unusual way, devices are exposed to macOS as expresscard pcie devices. hotplug and wake from sleep work.
     Devices I have tested that work: AKiTiO Node + RX 6600, Elgato Thunderbolt 3 Dock (20DAA9902)
     Devices I have tested that do not work: Apple Thunderbolt 3 to Thunderbolt 2 adapter + Apple thunderbolt to ethernet adapter (A1433)
+    
+    Note that the physical limitations of the T480 mean that only the front most USB C port is Thunderbolt, and it is limited to 2 lanes of pcie.
   </details>
 
 </details>  
